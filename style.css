@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i{
+    padding: 1px 1px 1px 15px;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    padding: 2px 1px 1px 1px;
+}
+
+.content1{
+    display: flex;
+    justify-content: end;
+    background-color: gold;
+}
+
+.content1 ul{
+    cursor: pointer;
+}
+
+.content2{
+    padding-right: 350px;
+    color: skyblue;
+}
+
+img{
+    width: 100%;
+    height: 20%;
+}
+
+.content3{
+    display: block;
+    padding: 20px 1px 1px 275px;
+}
+
+.content5{
+    display: flex;
+    justify-content: center;
+    padding: 75px 1px 1px 1px;
+}
+
+.content6{
+    display: flex;
+    justify-content: center;
+}
+
+.content6 p{
+    margin: 1px 20px 1px 20px;
+    font-size: 20px;
+}
+
+.content6 p:hover{
+    color: skyblue;
+}
+
+.content8{
+    margin-top: 75px;
+    font-size: 25px;
+    padding-left: 550px;
+}
+
+.content7{
+    display: flex;
+    width: calc(100% / 4);
+    justify-content: space-between;
+}
+
+.content7 p{
+    margin-bottom: 20px;
+    width: calc(100% / 4);
+}
+
+.content7 img{
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 1px 20px 1px 20px;
+    width: 265px;
+    height: 265px;
+    margin-top: 40px;
+}
+
+.content7 img:hover{
+    transform: scale(1.2);
+}
+
+.content9{
+    display: flex;
+    width: calc(100% / 3);
+    margin-top: 50px;
+}
+
+.content9 img{
+    width: 360px;
+    height: 360px;
+    margin: 1px 25px 1px 25px;
+}
+
+.content10{
+    display: flex;
+    width: calc(100% / 6);
+}
+
+.content10 img{
+    width: 195px;
+    height: 195px;
+    margin: 5px 2px 1px 2px;
+}
+
+.content11{
+    display: flex;
+}
+
+.content12 p:hover {
+    color: skyblue;
+}
+
+.content13 p:hover {
+    color: skyblue;
+}
+
+.content14 {
+    font-size: 25px;
+    padding-left: 45px;
+}
+
+.content15{
+    padding-left: 45px;
+}
+
+.content13{
+    padding-left: 60px;
+}
+
+.content14 img{
+    width: 180px;
+    height: 75px;
+}
+
+.content16{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content17{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content17 p {
+    margin: 1px 50px 1px 50px;
+}
+
+
+
+.content18{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: grey;
+    width: 100%;
+}
+
+.content20{
+    cursor: pointer;
+    padding: 18px 350px 0px 0px
+}
